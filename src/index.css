@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.header {
+  background-color: #009ff9;
+  height: 500px;
+  width: auto;
+}
+
+.heading {
+  color: #ffffff;
+  margin: 0px;
+  padding-top: 200px;
+  padding-left: 200px;
+}
+
+.sub-heading {
+  color: #ffffff;
+  margin: 0px;
+  padding-left: 200px;
+}
+.vaccine-img {
+  position: absolute;
+  top: 8%;
+  height: 300px;
+  width: 300px;
+  padding-left: 800px;
+}
+
+.reg-heading {
+  width: 1349px;
+  height: 150px;
+  background-color: #d7e9f6;
+  text-align: center;
+  padding-top: 60px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.stepper {
+  position: absolute;
+  top: 650px;
+  width: 800px;
+  height: 100px;
+
+  background: #ffffff;
+  box-shadow: -6px 8px 17px 1px rgba(0, 0, 0, 0.11) !important;
+  border-radius: 33px;
+}
+.ident-type {
+  width: 380px;
+  height: 34px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  margin-left: 200px;
+  margin-top: 100px;
+  color: #6b6b6b;
+}
+
+.ident-Box{
+  margin-left: 120px;
+}
+.id-number{
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.input {
+  width: 624px;
+  height: 50px;
+  border: 1px solid #464646;
+  box-sizing: border-box;
+  border-radius: 15px;
+  margin-left: 100px;
+}
+
+.button {
+  width: 200px;
+  height: 63px;
+  margin-top: 20px !important;
+  margin-bottom: 50px !important;
+  background-color: #009ff9 !important;
+  border-radius: 15px;
+  margin-left: 20px !important;
+}
+
+.layout-id {
+  padding: 30px;
+  border: solid 1px black;
+  margin: 10px !important;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.reg-div {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+}
+.center-heading{
+  color:#6B6B6B;
+  text-align: center;
+}
+.center-selections{
+  margin-top: 150px;
+}
+.pincode{
+  margin-top: 8px !important;
+  margin-left: 5px !important;
+}
+.details-heading{
+  margin-top: 150px;
+  color: #6B6B6B;
+
+}
